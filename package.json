@@ -1,6 +1,6 @@
 {
   "name": "algernon",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Algernon is a library for generating Typescript interfaces from solc compiled solidity abi definitions.",
   "main": "lib/algernon.js",
   "bin": {
