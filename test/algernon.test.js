@@ -19,7 +19,7 @@ describe('integration', () => {
 
   it('It writes the base interface correctly', () => {
     const file = readFileSync(path.join(__dirname, '../algernon/Base.ts'), 'utf-8').trim().replace(/[\n\r]+/g, '').replace(/\s{2,10}/g, ' ')
-    let expected = `import { EthBase } from './EthBase'; export interface Base extends EthBase { counter : () => EthBase;}`	
+    let expected = `import { EthBase } from './EthBase'; export interface Base extends EthBase { counter : () => EthBase;}`
     assert.strictEqual(file, expected)
   })
 })
