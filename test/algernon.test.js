@@ -6,7 +6,7 @@ var Algernon = require('../lib/algernon')
 describe('integration', () => {
   it('can parse an abi and create folder and interfaces', () => {
     new Algernon({
-      path: './abis'
+      path: './test-abis'
     }).parse()
     assert.strictEqual(existsSync('../algernon'), true)
   })
