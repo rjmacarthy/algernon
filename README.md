@@ -47,8 +47,6 @@ npm install algernon
 ```
 
 ```
-//index.js
-
 var Algernon = require('algernon')
 
 let a = new Algernon({
