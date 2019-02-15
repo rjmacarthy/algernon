@@ -3,7 +3,7 @@ const assert = require('assert')
 const path = require('path')
 var Algernon = require('../lib/algernon')
 
-describe('integration', () => {
+describe('Integration tests', () => {
   it('can parse an abi and create folder and interfaces', () => {
     new Algernon({
       path: path.join(__dirname, '/test-abis')
